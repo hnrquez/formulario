@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="nubank_logo_icon_248348.png" type="image/x-icon">
+    <title>Nubank real</title>
+</head>
+<body>
+    <section>
+        <h1>Criar cadastro</h1>
+        <div class="from-item">
+            <label for="nome-completo">Nome: </label>
+            <input type="text" id="nome-completo" required>
+        </div>
+        <div class="from-item">
+            <label for="cpf">CPF: </label>
+            <input type="tel" id="cpf" required>
+        </div>
+        <div  class="from-item">
+            <label for="nasc">Data de Nascimento:</label>
+            <input type="date" name="nascimento" id="data-nasc" required> <br>
+        </div>
+        <div  class="from-item">
+            <label for="contato">Numero pra contato:</label>
+            <input type="tel" name="num" id="cont-numero" required><br>
+            <label for="numero">Email:</label>
+            <input type="email" name="email" id="cont-email" required><br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="cont-senha" required>
+        </div> 
+        <div  class="from-item">
+            <h3>Endereço:</h3>
+            <label for="endereço">rua: </label>
+            <input type="text" name="rua" id="end-rua"> <br>
+            <label for="endereço">CEP:</label>
+            <input type="tel" name="cep" id="end-cep" required> <br>
+            <label for="endereçp">N- da casa:</label>
+            <input type="tel" name="numcasa" id="end-casa" required> <br>
+            <label for="endereço">cidade: </label>
+            <input type="text" name="cidade" id="end-cid"><br>
+        </div>
+            <input type="button" value="Cadastrar" id="botao" onclick="validar()">
+        <div  class="from-item">
+            <label for="validar">Aceitar <a href="">termos</a> e <a href="">condições</a><input type="checkbox" name="termos" id="val-termos"></label>
+        </div>
+       
+    </section>
+</body>
+</html>

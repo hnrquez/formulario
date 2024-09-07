@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(228, 223, 216);
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Isso empilha os elementos */
+    align-items: center;    /* Centraliza horizontalmente */
+    height: 100vh; /* Garante que o conteúdo ocupe a altura total da tela */
+}
+section {
+    background-color: rgba(255, 248, 248, 0.397);
+    text-align:left;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.445);
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+   
+
+}
+
+section div {
+    margin-bottom: 5px; /* Espaçamento entre os divs */
+}
+input[type="button"]{
+    background-color: rgba(122, 5, 151, 0.993);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border-style: hidden;
+    width: auto;
+    text-align: center;
+}
+input[type="button"]:hover{
+    color: rgba(230, 226, 221, 0.863);
+    background-color: rgba(128, 8, 184, 0.664);
+}
+.from-item input{
+    margin-bottom: 8px;
+    border-style:hidden ;
+    box-shadow: 2px 2px 5px rgba(87, 87, 87, 0.644);
+    height: 25px;
+    border-radius: 5px;
+    
+}
+#end-casa{
+    width: 45px;
+}
+#end-rua{
+    width: 50px;
+}
+#cont-numero{
+    width: 120px;  
+}
+#cont-email{
+    width: 125px;
+}
+#val-termos{
+    box-shadow: none;
+}
+a{
+    color: rgba(54, 54, 226, 0.849);
+}
+#cont-senha{
+    width: 65px;
+}
